@@ -4,7 +4,7 @@ import '../globals.css'
 
 function App({ Component, pageProps }) {
   return <><Component {...pageProps} />
-  <GoogleTagManager gtmId="GTM-WV2SRKQD" />
+  <GoogleTagManager gtmId="GTM-W3V7WTBH" />
   </>
 }
 
