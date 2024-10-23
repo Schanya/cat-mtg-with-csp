@@ -41,6 +41,10 @@ class MyDocument extends Document {
             sizes="32x32"
             href="/favicon/favicon.ico"
           />
+          <meta
+            name="google-site-verification"
+            content="iqJXprGKG0NSkQzHaM61n4__32JFzzLbok4HH-dRaVs"
+          />
         </Head>
         <body>
           <Main />
