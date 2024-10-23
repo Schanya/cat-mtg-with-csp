@@ -6,13 +6,13 @@ export default function Home() {
       <main className="flex flex-col gap-8 items-center sm:items-start">
         <h1 className="text-4xl font-bold text-pink-600 mb-8">Котики</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
+          {[0, 404, 101, 102, 500, 205].map((i) => (
             <div
               key={i}
               className="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105"
             >
               <Image
-                src={`https://placekitten.com/300/200?image=${i}`}
+                src={`https://http.cat/${i}`}
                 alt={`Cute cat ${i}`}
                 width={300}
                 height={200}
